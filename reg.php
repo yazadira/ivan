@@ -3,7 +3,7 @@
 	$login=new field_text('login', 'логин', true, $_POST['login']);
 	$pass=new field_password('pass','пароль', true, $_POST['pass']);
 	$passagain=new field_password('passagain','повторно пароль', true, $_POST['passagain']);
-	$email=new field_text_email('email', 'E-mail', true, $_POST ['email']);
+	$email=new field_text_email('e-mail', 'E-mail', true, $_POST ['e-mail']);
 	$form=new form(array('login'=>$login, 'pass'=>$pass, 'passagain'=>$passagain, 'email'=>$email), 'Регистрация', 'field');
 	if($_POST){
 			$error=$form->Check();
