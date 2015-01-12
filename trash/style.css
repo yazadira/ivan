@@ -1,0 +1,23 @@
+H1 {font-size:200%; /*размер шрифта*/
+    font-family: Verdana, Arial, Helvetica, sans-serif; /*Семейство шрифта*/
+    color: red; /*Цвет шрифта*/}
+A:link {text-decoration: none; /*Убирает подчеркивание для ссылок */}
+A:visited {text-decoration: none;}
+A:active {text-decoration: none;}
+A:hover {text-decoration: underline; /*Делает ссылку подчеркнутой при наведении на неё курсора*/
+        color: red;
+	font-size: 24px;}
+.link {color: blue;} /*Цвет черты*/
+UL {list-style-type: square; /*Маркер в виде квадрата*/
+    list-style-type: outside; /*Маркеры размещаются за пределами текстового блока*/
+    color: navy;}
+table 	{
+	background: #000; /*Цвет фона таблицы*/
+	color: black; /*Цвет текста*/
+	border: 1px solid #000; /* Рамка вокруг таблицы*/
+	}
+TD, TH 	{
+	background: white; /*Цвет фона ячеек*/
+	padding: 5px; /*Поля вокруг текста*/
+	text-align: center;
+	}
